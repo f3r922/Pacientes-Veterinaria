@@ -1,9 +1,6 @@
 # Pacientes Veterinaria
 
-Aplicacion desarrollada para el control de los pacientes de una veterinaria, se ingresan los datos en el formulario, mediante React Hook Form se validan los mismos como asi tambien la visualizacion de esos errores, 
-La informacion se aprecia enlistada con los datos ingresados, acompanados por los botones de Editar y Eliminar, para su manipulacion. Cada accion ya sea eliminar, editar o agregar
-se acompana con una notificacion generada por 'react-toastify', El manejo de las acciones y el estado global es a partir de zustand y los id generador por uuid.
-
+Aplicación diseñada para gestionar el control de pacientes en una clínica veterinaria. Los datos se ingresan a través de un formulario, que es validado utilizando React Hook Form, permitiendo también la visualización de posibles errores. La información ingresada se muestra en una lista, junto con los botones para Editar y Eliminar, lo que facilita la manipulación de los registros. Cada acción, ya sea agregar, editar o eliminar, genera una notificación mediante 'react-toastify' para confirmar la operación. El manejo de las acciones y el estado global se gestiona con Zustand, y los identificadores de los registros se generan mediante uuid.
 ## Vista previa del proyecto
 
 ![Vista previa del proyecto](assets/image-veterinary.jpg)
